@@ -35,7 +35,17 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# css framework
+gem 'semantic-ui-sass'
+# authentication
+gem 'devise'
+
 group :development, :test do
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'annotate'
+  # make easier to create custom objects during tests
+  gem 'factory_girl_rails'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
