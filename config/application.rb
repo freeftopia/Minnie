@@ -23,3 +23,7 @@ module Minnie
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+
+require File.expand_path('config/extra_config.rb',Rails.root)
+ETH_CONFIG=ExtraConfig.new(File.expand_path("config/ethereum.yml",Rails.root),"ETH")

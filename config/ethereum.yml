@@ -1,0 +1,14 @@
+default: &default
+  # client can be of schemes : ipc, http or https
+  client: "ipc://~/.ethereum/geth.ipc"
+  #client: "https://minnie.freeftopia.org:8545"
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+  client: "http://localhost:8545"
+
+production:
+  <<: *default
