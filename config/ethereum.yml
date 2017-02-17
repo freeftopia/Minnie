@@ -5,6 +5,7 @@ default: &default
 
 development:
   <<: *default
+  client: "http://5.196.23.94:8546"
 
 test:
   <<: *default

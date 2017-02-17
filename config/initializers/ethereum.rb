@@ -1,8 +1,8 @@
 #Define IPC or HTTP client depending of client scheme
 if ETH_CONFIG[:client].start_with? 'ipc://'
-  client=Ethereum::IpcClient.new(ETH_CONFIG[:client].sub('ipc://',''))
+  client=Ethereum::IpcClient.new(ETH_CONFIG[:client].sub('ipc://',''),true)
 else
-  client=Ethereum::HttpClient.new(ETH_CONFIG[:client])
+  client=Ethereum::HttpClient.new(ETH_CONFIG[:client],true)
 end
 
 main_file_path=File.expand_path("contracts/minnie.sol",Rails.root)
