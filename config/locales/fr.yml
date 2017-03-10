@@ -1,0 +1,52 @@
+en:
+  default:
+    modal_title: 'Supprimer'
+    modal_content: 'Etes vous sûr de vouloir supprimer cet item?'
+    modal_negative_answer: 'Non'
+    modal_positive_answer: 'Oui'
+  during: 'Pendant'
+  hello: "Bonjour !"
+  month:
+    one: 'mois'
+    other: 'mois'
+  times:
+    one: 'er'
+    two: 'ème'
+    three: 'ème'
+    other: 'ème'
+  successful_update: ' a correctement été mis à jour.'
+  error_update: "Il y a eu un problème pendant la mise à jour, merci de contacter l'équipe de support"
+  successful_deletion: ' a bien été supprimé du système.'
+  successful_validation: ' a bien été validé.'
+  error_deletion: "Il y a eu un problème pendant la suppression, merci de contacter l'équipe de support"
+  error_creation: "Il y a eu un problème pendant la création, merci de contacter l'équipe de support"
+  error_validation_m:
+    one: "1 erreur a empêché ce(cette) %{resource} d'être mis à jour:"
+    other: "%{count} erreurs ont empêché ce(cette) %{resource} d'être mis à jour:"
+  submit: 'Valider'
+  delete: 'Supprimer'
+  add: 'Ajouter'
+  edit: 'Editer'
+  from: 'De '
+  to: ' à '
+  ago_days: 'Il y a %{number} jours.'
+  future_days: 'Dans %{number} jours.'
+  today: "Aujourd'hui."
+  duration:
+    days: 'jours'
+  no_info: "Aucune donnée pour l'instant."
+  error:
+    should_be_number: 'devrait être un nombre.'
+
+  delete_confirmation_question: 'Etes vous sûr de vouloir supprimer cette entité?'
+  yes: 'Oui'
+  no: 'Non'
+  menu:
+    log_out: 'Se déconnecter'
+  activerecord:
+    models:
+      model_name: ''
+    attributes:
+      model_name:
+        property_name: ''
+        other_property_name: ''
