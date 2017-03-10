@@ -19,10 +19,12 @@
 
 
 
+
 $(document).on('turbolinks:load', function () {
     // $('.ui.dropdown')
     //     .dropdown();
     // ;
+    $('.languageSelection').dropdown();
 
     $('.message > .close')
         .on('click', function () {
